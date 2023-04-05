@@ -1,0 +1,76 @@
+/* stylesheet for frontend-mentor challenge QR Code Component */
+* {
+    box-sizing: border-box;
+}
+/* === VARIABLE declarations === */
+:root {
+    --project-white: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+}
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: Outfit;
+}
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--dark-blue);
+}
+p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--grayish-blue);
+}
+ul {
+    list-style: none;
+}
+.qr-background {
+    max-width: 1440px;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--light-gray);
+}
+#container {
+    margin: auto;
+    width: 300px;
+    background-color: var(--project-white);
+    border-radius: 20px;
+}
+.qr-code-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+}
+.qr-text {
+    text-align: center;
+    padding: 0 0.4em;
+}
+#qr-code-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media screen and (max-width: 420px) {
+ .qr-background {
+     max-width: 375px;
+}
