@@ -30,7 +30,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Links
 
 - Solution URL: [My GitHub Repository](https://github.com/testpilotuk/my-frontend-mentor)
-- Live Site URL: [chrisinportugal](https://your-live-site-url.com)
+- Live Site URL: [My Live Site](https://chrisinportugal.com/frontend-mentor/qr-code.html)
 
 ## My process
 
@@ -42,8 +42,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 
 ### What I learned
-
-For the html I implemented 2 divs with the 2nd containing an unordered list with the image, heading and paragraph elements. 
+I learned that centering things can be a headache but that Flexbox can make things a lot easier. For the html I implemented 2 divs with the 2nd containing an unordered list with the image, heading and paragraph elements. 
 ``` html
 <div class="qr-background">
             <div id="container">
@@ -56,7 +55,7 @@ For the html I implemented 2 divs with the 2nd containing an unordered list with
         </div>
 ```
 
-I used Flexbox to display the html design elements to give order. The outer div:
+I used Flexbox to both center the elements on the page  and to center the design elements (text and image). The outer div:
 ```
 .qr-background {
     max-width: 1440px;
@@ -93,5 +92,4 @@ and the inner div contains the image and text:
 
 - Website - [Chris Sutcliffe](https://chrisinportugal.com/)
 - Frontend Mentor - [@testpilotuk](https://www.frontendmentor.io/profile/testpilotuk)
-
 
